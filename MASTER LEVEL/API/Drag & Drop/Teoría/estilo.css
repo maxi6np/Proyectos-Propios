@@ -1,0 +1,16 @@
+.rectangulo{
+    padding: 70px;
+    width: 100px;
+    margin: 50px;
+    background: #ccc;
+    outline: 6px dashed rgb(141, 136, 136);
+}
+
+.circulo{
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    background: red;
+    display: inline-block;
+    
+}

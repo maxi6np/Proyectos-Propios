@@ -1,0 +1,19 @@
+body{
+    color: #555;
+    font-family: 'Lucida Sans', Verdana;
+}
+.container{
+    background-color: rgb(73, 79, 176);
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 50%;
+}
+.data{
+    padding: 10px;
+    color: #ffffff;
+}
+button{
+    background-color: rgb(87, 6, 6);
+    color: rgb(73, 79, 176);
+}

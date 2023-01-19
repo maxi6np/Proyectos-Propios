@@ -1,0 +1,79 @@
+body{
+    color: #333;
+    font-family: sans-serif;
+}
+
+.form-notas{
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    background: rgb(20, 68, 117);
+    box-sizing: border-box;
+    display: flex;
+    width: fit-content;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+h2{
+    margin: 0;
+    flex-grow: 1;
+    color: #fff;
+    margin-right: 20px;
+}
+
+input{
+    width: 30px;
+    border: none;
+}
+
+#enviar-nota{
+    margin-left: 6px;
+    background-color: #fff;
+    color: rgb(20, 68, 117);
+    letter-spacing: 1px;
+    border: none;
+}
+
+.modal-back{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    opacity: 0;
+}
+
+.modal{
+    background-color: #fff;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.resultado{
+    font-size: 23px;
+    margin-bottom: 5px;
+
+}
+
+.red{
+    color: rgb(230, 19, 19);
+}
+
+.green{
+    color: rgb(71, 255, 71);
+}
+
+@keyframes aparecer {
+    0%{
+        display: flex;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

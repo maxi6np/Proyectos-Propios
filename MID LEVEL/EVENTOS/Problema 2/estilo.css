@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #ededed;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 70px;
+}
+
+.grid-container .grid-item{
+    padding: 10px;
+    border: 1px solid #48e;
+    margin: 5px;
+    background: #fff;
+}
+
+.btn-confirm{
+    padding: 10px 40px;
+    font-weight: 700;
+    background: #fff;
+    color: #48e;
+    border: 1px solid #48e;
+    margin: 40px 5px;
+    transition: padding 0.3s;
+}
+
+.btn-confirm:hover{
+    padding: 15px 50px;
+    background-color: #48e;
+    color: #fff;
+    border: none;
+}
